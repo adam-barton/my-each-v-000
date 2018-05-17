@@ -3,7 +3,7 @@ def my_each(arg)
   
   while x < arg 
   
-   yield 
+   yield (arg[x])
    
   end
 end
